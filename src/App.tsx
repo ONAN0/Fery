@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Button from './components/Button';
-import "./components/Button.css";
+import './components/Button.css';
 
 const handleClick = () => {
-  console.log('Diki za feedback, cením.');
+  console.log('Finally.');
 };
 
-function App() {
+const App: FC = () => {
   return (
     <div className="App">
       <div className="Button">
