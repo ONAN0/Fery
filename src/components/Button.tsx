@@ -1,4 +1,4 @@
-import React, { FC, ReactEventHandler } from 'react';
+import { FC, ReactEventHandler } from 'react';
 import './Button.css';
 
 interface ButtonProps {
